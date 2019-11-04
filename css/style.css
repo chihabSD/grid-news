@@ -134,6 +134,9 @@ h6 {
 {
     color: #fff;
 }
+.l-heading{
+  font-size: 2em;
+}
 .py-1 {
   padding: 1.5rem 0;
 }
@@ -214,7 +217,8 @@ h6 {
 }
 #showcase:before {
   content: "";
-  background: url("../img/featured.jpg") no-repeat center center/cover;
+  /* background: url("https://unsplash.com/photos/VvQSzMJ_h0U") no-repeat center center/cover; */
+  background: url('https://source.unsplash.com/1600x900/?satellite') no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -254,7 +258,16 @@ h6 {
 #home-articles .articles-container > *:last-child {
   grid-column: 2 / span 2;
 }
-
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 0.5rem;
+}
+#article .meta .category {
+  margin-top: 0.4rem;
+}
 /* Footer */
 #main-footer {
     background:var(--dark-color);
