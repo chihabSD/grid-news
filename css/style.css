@@ -217,8 +217,8 @@ h6 {
 }
 #showcase:before {
   content: "";
-  /* background: url("https://unsplash.com/photos/VvQSzMJ_h0U") no-repeat center center/cover; */
-  background: url('https://source.unsplash.com/1600x900/?satellite') no-repeat center center/cover;
+  background: url("../img/featured.jpg") no-repeat center center/cover;
+  /* background: url('https://source.unsplash.com/1600x900/?satellite') no-repeat center center/cover; */
   position: absolute;
   top: 0;
   left: 0;
